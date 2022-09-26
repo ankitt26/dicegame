@@ -3,7 +3,7 @@ var imagename1 = "dice"+random1+".png" ;
 var dicenumber1 = imagename1;
 
 var img1= document.querySelectorAll("img")[0];
-img1.setAttribute("src" , dicenumber1);
+img1.setAttribute("src" , imagename1);
 
 
 
@@ -13,7 +13,7 @@ var imagename2 = "dice"+random2+".png";
 var dicenumber2 = imagename2 ;
 
 var img2 = document.querySelectorAll("img")[1] ;
-img2.setAttribute("src", dicenumber2);
+img2.setAttribute("src", imagename2);
 
 
 if (random1 > random2 ){ 
